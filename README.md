@@ -2,7 +2,7 @@
 
 Previto y Previta, se enteraron de que trabajan hasta las 15:30 hrs los viernes, y se les ocurrió jugar al juego el palíndromo ganador después del trabajo, en el que generan una palabra al azar S y por turnos van sacando letras de la palabra generada con las que pueden conformar palabras palíndromo, donde finalmente gana quién construye una palabra palíndromo de mayor longitud.
 
-Para eso, primero buscaron en Google para confirmar cómo es una palabra palíndromo, y obtuvieron que una palabra es palíndromo cuando se lee de la misma manera de izquierda a derecha, y de derecha a izquiera.
+Para eso, primero buscaron en Google para confirmar cómo es una palabra palíndromo, y obtuvieron que una palabra es palíndromo cuando se lee de la misma manera de izquierda a derecha, y de derecha a izquierda.
 
 Cómo por ej: Salas, nidhdin, aabbaa
 
