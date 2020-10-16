@@ -16,34 +16,38 @@ Luego de 5 vueltas ganó Previta, de la siguiente forma:
 > = palindromo_ganador(avq)
 > = palindromo_ganador(avqv)
 > = palindromo_ganador(avqva)
-> = avqva
+> = PA avqva
 
 Previto y Previta, no compartieron su código, y nos dijeron que para ir a pasarla bien a Orrego Luco con ellos debemos primero realizar nuestro propio algoritmo del juego.
 
 ### Desafío:
 
-Dado una palabra al azar **S**, debemos construir un algoritmo que simule a Previto **PO** y Previta **PA**,
+Se debe construir un algoritmo que simule un juego de Previto **PO** y Previta **PA**, con los siguientes pasos:
+
+1- Ingresar una palabra **S** de largo N < 15
+
+2- Luego por turnos ir obteniendo las letras una por una de la palabra S generada, de izquierda a derecha, comenzando el turno Previta, luego Previto, y así consecutivamente.
+
+3- Una vez que se obtengan todas las letras de cada jugador ( PO y PA), debemos ver cuál de los dos puede obtener una palabra palíndromo de mayour longitud.
+
+4- Finalmente, se debe entregar el nombre del ganador (PO o PA) y la palabra palíndromo generada.
 
 Por ejemplo:
 
-> N = 856, K = 2, R = super_digit(865856) = super_digit(8 + 6 + 5 + 8 + 5 + 6) = 2
+> S =**a**v**k**f**o**e**i**r**o**t**p**h**k**j, R = palindromo_ganador(akoiopk,vferthj) = PA koiok
 
 Formato de entrada:
 
-> 856 2
+> avkfoeirotphkj
 
 Formato de salida:
 
-> 2
+> PA koiok
 
 Explicación:
 
-> super_digit(P) = super_digit(8 + 5 + 6 + 8 + 5 +6)
-> = super_digit(38)
-> = super_digit(3 + 8)
-> = super_digit(11)
-> = super_digit(1 + 1)
-> = super_digit(2)
-> = 2
+> palindromo_ganador(avkfoeirotphkj) =palindromo_ganador(akoiopk,vferthj)
+> =palindromo_ganador(koiok,null)
+> = PA koiok
 
 Haz tu mayor esfuerzo y diviértete!
