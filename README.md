@@ -11,11 +11,11 @@ Previto y Previta muy ñoñamente, construyeron su propio juego y en su primer j
 **a**x**v**a**q**c**v**w**a**v
 Luego de 5 vueltas ganó Previta, de la siguiente forma:
 
-> palindromo_ganador(a)
-> = palindromo_ganador(av)
-> = palindromo_ganador(avq)
-> = palindromo_ganador(avqv)
-> = palindromo_ganador(avqva)
+> palindromo_ganador(a,x)
+> = palindromo_ganador(av,xa)
+> = palindromo_ganador(avq,xac)
+> = palindromo_ganador(avqv,xacw)
+> = palindromo_ganador(avqva,xacwv)
 > = PA avqva
 
 Previto y Previta, no compartieron su código, y nos dijeron que para ir a pasarla bien a Orrego Luco con ellos debemos primero realizar nuestro propio algoritmo del juego.
