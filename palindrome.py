@@ -32,7 +32,7 @@ def consultaPalindormoDerechaAIzquierda(S):
   if S.count(subString)>1:
     aux = S[1:S.rfind(subString)]
     return subString + consultaPalindormoIzquierdaADerecha(aux) +subString
-  aux = S[1:-1]  
+  aux = S[1:]  
   return consultaPalindormoIzquierdaADerecha(aux)
 
 def consultaPalindormoIzquierdaADerecha(S):
